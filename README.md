@@ -37,3 +37,12 @@ command and the firmware's own PCI scan log:
 ## Next
 - Decode BAR type and size
 - ACPI table reader (RSDP, XSDT, MADT, MCFG)
+
+## About this repo
+An independent, public reproduction of a UEFI PCIe/ACPI diagnostic task, built from public specs (UEFI, ACPI, EDK II) on QEMU. It contains no client code.
+
+## Status
+- [x] PciListApp: enumerates PCIe devices via EFI_PCI_IO_PROTOCOL (ArmVirtQemu AARCH64)
+- [ ] BAR decoding and sizes (GetBarAttributes)
+- [ ] ACPI reader: RSDP, XSDT, MCFG, MADT
+- [ ] gdb-multiarch debugging notes
