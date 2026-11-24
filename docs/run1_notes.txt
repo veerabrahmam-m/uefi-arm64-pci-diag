@@ -1,0 +1,5 @@
+Platform: EDK II ArmVirtQemu AARCH64, toolchain GCC, DEBUG, QEMU virt (cortex-a57)
+Devices: virtio-net-pci, nvme
+Shell pci: 1B36:0008 (host bridge), 1AF4:1000 (net), 1B36:0010 (NVMe)
+PciListApp: 3 devices, same IDs and class codes
+Fixes: GCC5->GCC tag; pflash needs 64MB; module added to [Components.common] in DSC
